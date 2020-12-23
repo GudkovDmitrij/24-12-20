@@ -1,21 +1,17 @@
 "use strict";
 
-console.log(4 + "5")
+//alert('hello');
 
-let incr = 10,
-decro = 10;
+//const result = confirm("Are you here?")
+//console.log(result);
 
-//++incr;
-//--decro;
+//const answer = +prompt("Vam est 18?", "18");
+//console.log(answer + 5);
 
-console.log(++incr);
-console.log(--decro);
+const answers = [];
 
-console.log(5%2);
+//answers[0] = prompt('Как ваше имя?', '');
+//answers[1] = prompt('Как ваша фамилия?', '');
+//answers[2] = prompt('Сколько вам лет?', '');
 
-console.log(2*4 === 8);
-
-const isCheked = true,
-    isClose = true;
-
-    console.log(isCheked && isClose);
+console(answers);
