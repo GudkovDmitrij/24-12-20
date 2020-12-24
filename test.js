@@ -6,7 +6,7 @@ const numberOfFilms = +prompt('Сколько фильмов ты посмотр
 console.log(numberOfFilms);
 //alert("сколько фильмов ты посмотрел?", "0//");
 
-const pp = {
+const ppDB = {
 
 count: numberOfFilms,
 movis: {},
@@ -22,7 +22,7 @@ b = prompt("На сколько ойените его?", "");
 const c = prompt("Один из полдених просмотренных фильмов?", ""),
 d = prompt("На сколько ойените его?", "");
 
-pp.movis[a] = b;
-pp.movis[c] = d;
+ppDB.movis[a] = b;
+ppDB.movis[c] = d;
 
-console.log(pp);
+console.log(ppDB);
